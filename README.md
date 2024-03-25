@@ -2,7 +2,10 @@
 
 ## How to deploy the Python dashboard ✏
 
-1. Clone this repository
+1. Clone this repository with Github Desktop or type the following command:
+   ```bash
+   git clone https://github.com/MarcoKuok/G2-VABI.git
+   ```
 
 2. Open VSCode/ Sublime Text and navigate to your local machine foler where you cloned the repository
    
