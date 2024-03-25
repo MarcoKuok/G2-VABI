@@ -1,4 +1,4 @@
-# G2-VABI
+# G2-VABI Project: Financial Statement Analysis Dashboard
 
 ## How to deploy the Python dashboard ✏
 
