@@ -1,0 +1,297 @@
+{
+    "Scenario 1: Negative Gross Profit": {
+        "labels": [
+            "Revenue",
+            "Cost of Revenue",
+            "Gross Loss"
+        ],
+        "source": [
+            0,
+            2
+        ],
+        "target": [
+            1,
+            1
+        ],
+        "color_for_nodes": [
+            "grey",
+            "maroon",
+            "green"
+        ],
+        "color_for_links": [
+            "indianred",
+            "lightgreen"
+        ],
+        "x": [
+            0.00,
+            1.00,
+            0.00
+        ],
+        "y": [
+            0.00,
+            0.50,
+            1.00
+        ]
+    },
+    "Scenario 2: Negative Operating Income": {
+        "labels": [
+            "Revenue",
+            "Cost of Revenue",
+            "Gross Profit",
+            "Operating Expenses",
+            "Operating Loss"
+        ],
+        "source": [
+            0,
+            0,
+            2,
+            4
+        ],
+        "target": [
+            1,
+            2,
+            3,
+            3
+        ],
+        "color_for_nodes": [
+            "grey",
+            "maroon",
+            "green",
+            "maroon",
+            "maroon"
+        ],
+        "color_for_links": [
+            "indianred",
+            "lightgreen",
+            "indianred",
+            "indianred"
+        ],
+        "x": [
+            0.00,
+            0.33,
+            0.66,
+            0.33
+        ],
+        "y": [
+            0.50,
+            1.00,
+            0.50,
+            0.50,
+            1.00
+        ]
+    },
+    "Scenario 3: Negative Income Before Tax": {
+        "labels": [
+            "Revenue",
+            "Cost of Revenue",
+            "Gross Profit",
+            "Operating Expenses",
+            "Operating Income",
+            "Total Other Expenses (Net)",
+            "Income Before Tax"
+        ],
+        "source": [
+            0,
+            0,
+            2,
+            2,
+            4,
+            6
+        ],
+        "target": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+        ],
+        "color_for_nodes": [
+            "grey",
+            "maroon",
+            "green",
+            "maroon",
+            "green",
+            "maroon",
+            "maroon"
+        ],
+        "color_for_links": [
+            "indianred",
+            "lightgreen",
+            "indianred",
+            "lightgreen",
+            "indianred",
+            "indianred"
+        ],
+        "x": [
+            0.00,
+            0.33,
+            0.33,
+            0.66,
+            0.66,
+            0.99,
+            0.33
+        ],
+        "y": [
+            0.75,
+            1.00,
+            0.50,
+            0.75,
+            0.50,
+            0.25,
+            0.00
+        ]
+    },
+    "Scenario 4: Negative Total Other Income/Expenses (Net)": {
+        "labels": [
+            "Revenue",
+            "Cost of Revenue",
+            "Gross Profit",
+            "Operating Expenses",
+            "Operating Income",
+            "Total Other Expenses (Net)",
+            "Income Before Tax",
+            "Income Tax Expense",
+            "Net Income"
+        ],
+        "source": [
+            0,
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            6
+        ],
+        "target": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "color_for_nodes": [
+            "grey",
+            "maroon",
+            "green",
+            "maroon",
+            "green",
+            "maroon",
+            "green",
+            "maroon",
+            "green"
+        ],
+        "color_for_links": [
+            "indianred",
+            "lightgreen",
+            "indianred",
+            "lightgreen",
+            "indianred",
+            "lightgreen",
+            "indianred",
+            "lightgreen"
+        ],
+        "x": [
+            0.00,
+            0.25,
+            0.25,
+            0.50,
+            0.50,
+            0.75,
+            0.75,
+            1.00,
+            1.00
+        ],
+        "y": [
+            0.75,
+            1.00,
+            0.50,
+            1.00,
+            0.50,
+            0.50,
+            0.25,
+            0.25,
+            0.00
+        ]
+    },
+    "Scenario 5: Positive Total Other Income/Expenses (Net)": {
+        "labels": [
+            "Revenue",
+            "Cost of Revenue",
+            "Gross Profit",
+            "OperatingExpenses",
+            "Operating Income",
+            "Total Other Income (Net)",
+            "Income Before Tax",
+            "Income Tax Expense",
+            "Net Income"
+        ],
+        "source": [
+            0,
+            0,
+            2,
+            2,
+            5,
+            4,
+            6,
+            6
+        ],
+        "target": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            6,
+            7,
+            8
+        ],
+        "color_for_nodes": [
+            "grey",
+            "maroon",
+            "green",
+            "maroon",
+            "green",
+            "green",
+            "green",
+            "maroon",
+            "green"
+        ],
+        "color_for_links": [
+            "indianred",
+            "lightgreen",
+            "indianred",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "indianred",
+            "lightgreen"
+        ],
+        "x": [
+            0.00,
+            0.25,
+            0.25,
+            0.50,
+            0.50,
+            0.50,
+            0.75,
+            1.00,
+            1.00
+        ],
+        "y": [
+            0.50,
+            1.00,
+            0.25,
+            1.00,
+            0.50,
+            0.00,
+            0.25,
+            0.50,
+            0.00
+        ]
+    }
+}
